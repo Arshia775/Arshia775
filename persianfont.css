@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Pelak-ExtraBold';
+  src: url(./Pelak-ExtraBold.eot);
+  src: url(./Pelak-ExtraBold.eot?#iefix) format('embedded-opentype'),
+       url(./Pelak-ExtraBold.otf) format('otf'),
+       url(./Pelak-ExtraBold.svg#Pelak-ExtraBold) format('svg'),
+       url(./Pelak-ExtraBold.ttf) format('truetype'),
+       url(./Pelak-ExtraBold.woff) format('woff'),
+       url(./Pelak-ExtraBold.woff2) format('woff2');
+}
+
