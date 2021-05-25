@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan.css');
+:root {
+    --mainBlue: #40ACF1;
+    --transparentBlue: rgba(64, 172, 241, 0.7);
+    --mainWhite: #FFFFFF;
+    --mainBlack: #292F36;
+    --mainGrey: rgb(216, 214, 214);
+    --mainYellow: #e3b505;
+}
+
+body {
+    font-family: 'yekan' !important;
+    color: var(--mainBlack);
+    background: var(--mainWhite);
+    font-weight: normal;
+}
+
+
+/* section */
+
+.section-title-special {
+    background-color: darkred;
+    color: var(--mainWhite);
+    padding: 0.5rem 10rem;
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+    float: right;
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+
+/* end section */
+
+
+/* REM values to target root element 1REM = 16px */
+
+
+/* navbar */
+
+.navbar {
+    background: var(--mainWhite);
+}
+
+.navbar-icon {
+    font-size: 2rem;
+    color: var(--mainBlue);
+}
+
+.nav-icon {
+    font-size: 1.5rem !important;
+    color: var(--mainBlue);
+    text-decoration: none !important;
+    transition-property: color;
+    text-rendering: 2s;
+    transition-timing-function: linear;
+}
+
+.nav-icon:hover {
+    color: var(--mainBlack);
+}
+
+.navbar-toggler {
+    outline-color: var(--mainBlue) !important;
+}
+
+.nav-link {
+    color: var(--mainBlack);
+}
+
+.nav-link:hover {
+    color: var(--mainBlue);
+}
+
+
+/* header */
+
+.header {
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 50% 100%, 0 95%);
+    color: var(--mainWhite);
+    overflow: hidden;
+}
+
+.height-max {
+    min-height: calc(70vh - 76px);
+    background: url(https://media.istockphoto.com/videos/animation-of-a-lot-of-white-question-mark-moving-on-black-background-video-id1202275093?s=640x640);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    animation-name: zoom;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2) translateX(-5%);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.title-heading {
+    background-color: rgb(0, 0, 0, 0 .4 green blue);
+    border-left: 0.3rem solid red;
+    height: 40px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 1.9rem;
+}
+
+@media screen and (min-width:768px) {
+    .title {
+        font-size: 3rem;
+    }
+}
+
+.title-icon {
+    color: var(--mainBlue);
+    text-decoration: none !important;
+}
+
+.title-icon:hover {
+    color: var(--mainBlue);
+    opacity: 0.6;
+}
+
+
+/* post */
+
+.posttitle {
+    background-color: moccasin;
+    text-align: right !important;
+    text-decoration: rtl;
+    box-shadow: 2px 2px 15px aquamarine;
+    padding: 0.6rem;
+    font-size: 2rem;
+}
+
+@media screen and (max-width:768px) {
+    .posttitle {
+        font-size: 1.6rem;
+    }
+}
+
+.postcontent {
+    background-color: rgba(255, 255, 255, 0.945);
+    text-align: right !important;
+    text-decoration: rtl;
+    font-size: 1.3rem;
+    background-color: rgb(242, 253, 253);
+    padding-top: 10px;
+    direction: rtl;
+}
+
+
+/* end post */
+
+
+/* information */
+
+.line {
+    margin-top: 30px;
+    background-color: rgba(235, 10, 10, 0.363);
+}
+
+.boxinfo {
+    background-color: rgb(41, 228, 218);
+    font-size: 1rem;
+    color: white;
+}
+
+.information {
+    padding: 5px;
+    margin: 2px;
+    font-size: 12px;
+}
+
+@media screen and (max-width:768px) {
+    .information {
+        font-size: 1.1rem;
+    }
+}
+
+
+/* end information */
+
+
+/* tag */
+
+.tags {
+    background-color: rgb(53, 139, 135);
+    padding: 5px;
+    margin-top: 12px;
+    color: white;
+}
+
+a.linktag {
+    text-decoration: none;
+    color: rgb(73, 219, 37);
+}
+
+a.linktag:hover {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 3px;
+    transition: 0.4s;
+}
+
+
+/* end tag */
+
+
+/* cateegory */
+
+.archive {
+    background-color: rgb(31, 85, 82);
+    padding: 5px;
+    margin-top: 12px;
+    color: white;
+}
+
+a.categorylink {
+    color: rgb(25, 231, 18);
+    text-decoration: none;
+}
+
+a.categorylink:hover {
+    background-color: dodgerblue;
+}
+
+
+/* end category */
+
+
+/* comment */
+
+a.commentbtn {
+    margin-top: 5px;
+    margin-right: 20rem;
+    font-size: 1.1rem;
+    font-family: yekan;
+}
+
+a.commentbtn:hover {
+    background-color: darkgreen;
+}
+
+
+/* end comment */
+
+
+/* boxscript */
+
+.boxscript {
+    border: 2px solid gray;
+    margin-top: 120px;
+    width: fit-content;
+}
+
+
+/* end boxscript */
+
+
+/* list */
+
+.boxlist {
+    padding-top: 20%;
+}
+
+.listtit {
+    font-size: 1.4rem;
+    color: white;
+    background-color: rgb(78, 78, 199);
+    padding: 9px;
+    box-shadow: 3px 3px 6px red;
+    border-radius: 9px;
+}
+
+.listlinks {
+    color: blue;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.listlinks:hover {
+    color: rgb(0, 225, 255);
+    text-decoration: none;
+    font-size: medium;
+}
+
+
+/* end list */
