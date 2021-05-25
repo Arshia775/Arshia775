@@ -160,6 +160,7 @@ body {
     font-size: 1.3rem;
     background-color: rgb(242, 253, 253);
     padding-top: 10px;
+    direction: rtl;
 }
 
 
