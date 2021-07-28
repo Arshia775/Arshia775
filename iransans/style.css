@@ -1,0 +1,9 @@
+@font-face {
+     font-family: 'iransa2';
+     src: url("http://soalstore3251.ihweb.ir/wp-content/uploads/2021/07/IRANSansWeb_Bold.eot") format("embedded-opentype"),
+          url("http://soalstore3251.ihweb.ir/wp-content/uploads/2021/07/IRANSansWeb_Bold.woff2") format("woff2"),
+          url("http://soalstore3251.ihweb.ir/wp-content/uploads/2021/07/IRANSansWeb_Bold.woff") format("woff"),
+          url("http://soalstore3251.ihweb.ir/wp-content/uploads/2021/07/IRANSansWeb_Bold.ttf") format("truetype");
+     font-weight: 500;
+     font-style: normal;
+}
